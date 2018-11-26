@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header';
-const App = () => {
+class App extends Component {
+    render(){
     return(
         <div>
             <Header></Header>
@@ -9,6 +10,7 @@ const App = () => {
                <h2> This is first app</h2>
         </div>
         )
+    }
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
