@@ -5,9 +5,9 @@ const TestsList = (props) => {
 
     const output = props.tests.map((list) => {
         return(
-            <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
+           <div className="container">
+            <div className="row">
+              <div className="col-sm-4">
                 <h3>Name:{list.first_name},{list.last_name}</h3>
                 <h4>Email:{list.email},<br/>
                 Gender:{list.gender},<br/>
@@ -19,7 +19,7 @@ const TestsList = (props) => {
             
             
             
-          /*  <div>
+         /*  <div>
                 <h3>Name:{list.first_name},{list.last_name}</h3>
                 <h4>Email:{list.email},<br/>
                 Gender:{list.gender},<br/>
