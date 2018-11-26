@@ -11,3 +11,14 @@ font-size: 30px
 h2 {
     color:rgb(84, 238, 13)
 }
+
+h3 {
+    color:rgb(98, 84, 228)
+}
+
+.data {
+
+    color: red;
+    text-align: center
+
+}
